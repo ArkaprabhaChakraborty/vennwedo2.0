@@ -1,0 +1,11 @@
+
+.landing_left
+{
+    flex:0.3;
+    color:white;
+}
+.landing_right
+{
+    flex:0.7;
+    color:white;
+}
