@@ -1,11 +1,90 @@
 
 .landing_left
 {
-    flex:0.3;
+    flex:0.25;
     color:white;
+    object-fit: contain;
+    align-items: center;
 }
 .landing_right
 {
-    flex:0.7;
+    flex:0.75;
     color:white;
+    object-fit: contain;
+
 }
+.description_card
+{
+    margin-top: 100px;
+    width:400px;
+    padding: 40px 0px;
+    margin-left: 0px;
+}
+.vennwedo_logo
+{
+    height:auto;
+    width: 100%;
+    max-width: 360px;
+    max-height: 200px;
+    object-fit: contain;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.card_text
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 55px;
+    padding: 0px 20px;
+    font-size: medium !important;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 0px;
+    width:100%;
+    max-width: 200px;
+}
+.card_title
+{
+    font-weight: 300;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.card_title > p
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top:0px;
+    margin-left: 10px;
+}
+
+svg g {
+    fill: #3A506B;
+    fill-opacity: 0.6;
+    object-fit: contain;
+    display: flex;
+  }
+
+svg g :hover{
+    fill-opacity: 1;
+}
+svg g text {
+    font-size: 0.1em;
+    fill: #FFFFFF;
+    fill-opacity:1;
+    transition: fill-opacity .2s;
+    cursor: pointer;
+    display:flex;
+  }
+
+svg g polygon {
+    stroke: #3A506B;
+    stroke-width: 2.0;
+    transition: fill-opacity .25s;
+  }
+
+
+svg g:hover text {
+    fill-opacity: 1;
+  }
