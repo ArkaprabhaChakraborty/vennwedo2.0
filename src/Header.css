@@ -13,7 +13,7 @@
 .header_logo
 {
     height: 35px;
-    width: 40px;
+    width: 60px;
     object-fit: contain;
     margin-left: 20px;
 }
@@ -23,6 +23,7 @@
     align-items: center;
     width: 40%;
     border: 1px solid lightgray;
+    background-color: #fafafa;
 }
 .header_input>input
 {
@@ -43,6 +44,7 @@
 {
     flex: 1;
     border: none;
+    background-color: #fafafa;
 }
 .header_input > input:focus {
     outline: none;
@@ -51,6 +53,7 @@
 .header_inputbutton
 {
     width:50px !important;
+    height:100%;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
     color: gray;
